@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* input{border-color:transparent;} */
+ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    height: 90px;
+    width: 100%;
+}
+
+.n_left li {
+    float: left;
+    padding-right: 35px;
+    padding-top: 22px;
+}
+
+.n_left li a {
+    font-size: 14px;
+    color: #442f22;
+}
+
+.n_left li a:hover {
+    color: #4e71f2;
+}
+
+.n_left li:first-child {
+    margin-left: 25px;
+}
+
+.n_right {
+    float: right;
+    margin-right: 25px;
+    padding-top: 22px;
+}
+
+.navbar .a1 {
+    display: block;
+    background-color: #4e71f2;
+    width: 48px;
+    height: 24px;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 2px;
+}
+
+.open {
+    float: right;
+    margin: 0 auto;
+}
+
+.a1 {
+    font-size: 14px;
+    color: #fff;
+}
+
+.a2 {
+    font-size: 14px;
+    color: #442f22;
+}
+
+.a2:hover {
+    color: #4e71f2;
+}
+
+#set_menu {
+    width: 90px;
+    height: 38px;
+    position: relative;
+    text-align: center;
+}
+
+#set_menu ul {
+    width: 90px;
+    position: absolute;
+    display: none;
+}
+
+#set_menu ul li a {
+    font-size: 13px;
+    color: #442f22;
+}
+
+#set_menu:hover ul {
+    display: block;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .15);
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+#set_menu:hover ul li {
+    padding-bottom: 10px;
+}
+
+#set_menu:hover ul li:first-child {
+    padding-top: 10px;
+}
+
+#set_menu ul li a:hover {
+    color: #4e71f2;
+}
+
+.n_r_left {
+    float: left;
+}
+
+.home {
+    height: 180px;
+    margin-top: 110px;
+    text-align: center;
+}
+
+.home .logo img {
+    width: 215px;
+    height: 70px;
+}
+
+.home .soso {
+    width: 670px;
+    margin: 0 auto;
+}
+
+.home .soso input {
+    width: 548px;
+    height: 42px;
+    margin-top: 30px;
+    float: left;
+    border-radius: 10px 0 0 10px;
+    border-color: #c4c7ce;
+    border-width: 2px;
+    border-style: solid;
+    padding-left: 10px;
+}
+
+.home .soso input:hover {
+    border-color: #4e71f2;
+    font-size: 18px;
+}
+
+.home .soso input:focus {
+    border-color: #4e71f2;
+    outline: 0px;
+}
+
+.home .soso .btn {
+    width: 108px;
+    height: 46px;
+    margin-top: 30px;
+    text-align: center;
+    float: right;
+}
+
+.home .soso .soso_btn {
+    background-color: #4e71f2;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    border-radius: 0 10px 10px 0;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.home .soso .soso_btn:hover {
+    background-color: #4662d9;
+}
+
+.home .soso .soso_btn:focus {
+    border-color: #4662d9;
+    ;
+    outline: 0px;
+}
+
+
+.news {
+    width: 670px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.news .h4 {
+    margin: 15px 0 10px 10px;
+    overflow: hidden;
+}
+
+.news h4 {
+    display: block;
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.news h5 {
+    display: block;
+    float: right;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;
+    color: #9195a5;
+}
+
+.news .news_01 {
+    float: left;
+    margin: 0 0 10px 10px;
+}
+
+.news li {
+    padding-top: 15px;
+}
+
+.news a {
+    font-size: 15px;
+    line-height: 20px;
+    color: #222222;
+}
+
+.news a:hover {
+    color: #4e71f2;
+}
+
+.news h5:hover {
+    color: #4e71f2;
+}
+
+.news .news_01 .number {
+    color: #fe8846;
+    padding-right: 5px;
+}
+
+.news .news_02 {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.news .news_02 li a {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.news .news_02 .number {
+    color: #fe8846;
+    padding-right: 5px;
+}
+
+
+.navbar .n_left .dinner {
+    position: relative;
+}
+
+.more {
+    width: 305px;
+    height: 255px;
+    position: absolute;
+    right: 20px;
+    top: 55px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .15);
+    background-color: #fff;
+}
+
+.more {
+    display: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+.more_n1 {
+    overflow: hidden;
+}
+
+.more .img {
+    width: 50px;
+    height: 70px;
+    float: left;
+    text-align: center;
+    padding: 17px 0 17px 22px;
+}
+
+.more img {
+    width: 42px;
+    height: 42px;
+}
+
+.dinner:hover .more {
+    display: block;
+}
+
+.more_btn {
+    width: 50px;
+    height: 50px;
+}
+
+.good {
+    font-size: 14px;
+    color: #442f22;
+    padding-top: 10px;
+    display: block;
+}
+
+.good:hover {
+    #4e71f2;
+}
