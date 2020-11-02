@@ -7,40 +7,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="./common.css">
     <link rel="stylesheet" href="./icon/iconfont.css">
+    <script src="./icon/iconfont.js"></script>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
 
-        ul {
-            list-style: none;
-        }
-
-        img {
-            display: block
-        }
-
-        a {
-            text-decoration: none;
-        }
-
-        .l {
-            float: left;
-        }
-
-        .r {
-            float: right;
-        }
-
-        #header {
-            width: 100%;
-            height: 80px;
-            background-color: #018ffb;
-        }
-        #header .logo h1{margin: 19px 0 0 20px;}
-        #header .logo h2{ font-size: 24px; color: #fff; font-weight: 400; line-height:38px; margin-top:18px; margin-left: 15px;}
-        #header .logo img{width: 49px; height: 36px;}
     </style>
 </head>
 
@@ -50,18 +19,315 @@
             <h1 class="l"><img src="./img/logop.png" alt=""></h1>
             <h2 class="l">正达建筑内部管理平台</p>
         </div>
-        <div class="menu">
+        <div class="menu r">
             <ul>
                 <li>
-                    <i class="iconfont "></i><a href=""></a>
-                    <i class="iconfont "></i><a href=""></a>
-                    <i class="iconfont "></i><a href=""></a>
-                    <i class="iconfont "></i><a href=""></a>
-                    <i class="iconfont "> class="iconfont "</i><a href=""></a>
+                    <i class="iconfont icon-jibenicon_wode-mian"></i>欢迎您，Hi菠萝
+                    <i class="iconfont icon-xiugai"></i><a href="#">修改资料</a>
+
+                    <i class="iconfont icon-guanwangfangwen"></i><a href="#">官方网站</a>
+                    <i class="iconfont icon-fenxiang"></i><a href="#">退出</a>
+                </li>
+            </ul>
+
+        </div>
+    </header>
+    <aside class="aside_menu l">
+        <ul>
+            <li>
+                <a href="" class="first">
+                    <i class="iconfont icon-jianzhu"></i>
+                    <p>项目管理</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="iconfont icon-V"></i>
+                    <p>用户管理</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="iconfont icon-shezhi2"></i>
+                    <p>项目管理</p>
+                </a>
+            </li>
+        </ul>
+    </aside>
+    <main id="main">
+        <section class="main_container">
+            <section id="projectTitle">
+                <div class="projectTitle_text l">
+                    <h2>青田高湾绿园一期、二期工程<i class="iconfont icon-xiugai1"></i></h2>
+                    <p><strong>项目编号：</strong>CN0000507 </p>
+                    <p><strong>项目类型：</strong>在建工程</p>
+                    <p><strong>项目负责人：</strong>梅海丽</p>
+                    <p><strong>手机号码：</strong>15869168967</p>
+                </div>
+                <div class="projectTitle_img r">
+                    <img src="./img/main_text_img.jpg" alt="">
+                </div>
+            </section>
+        </section>
+        <div class="projectList_btns ">
+            <ul>
+                <li class="l">
+                    <a href="">视频监控</a>
+                </li>
+                <li class="l">
+                    <a href="">考勤管理</a>
+                </li>
+                <li class="l">
+                    <a href="">安全巡查</a>
+                </li>
+                <li class="l">
+                    <a href="">资料管理</a>
                 </li>
             </ul>
         </div>
-    </header>
+        <div class="projectList_cons">
+            <div class="show">
+                <div class="show_btn_file l">
+                    <table>
+                        <input type="file">
+                        <span>文件上传</span>
+                    </table>
+                </div>
+                <div class="show_btn_file_s l">
+                    <table>
+                        <input type="file">
+                        <span>批量上传</span>
+                        <i></i>
+                    </table>
+                </div>
+                <div class="soso r">
+                    <input type="text" class="l" placeholder="请输入关键字">
+                    <button><i class="iconfont icon-jibenicon_sousuo r"></i></button>
+                </div>
+            </div>
+        </div>
+        <table id="table_job">
+            <thead>
+                <tr class="first">
+                    <th width="49"><input type="checkbox"></th>
+                    <th>文档名称</th>
+                    <th width="167">文档大小</th>
+                    <th width="148">上传者</th>
+                    <th width="168">上传时间</th>
+                    <th width="130">操作
+                </tr>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-doc"></use>
+                        </svg><a href="#">&nbsp安全专项方案.doc</a></td>
+                    <td>21.3KB</td>
+                    <td>黄育文</td>
+                    <td>2020.08.08</td>
+                    <td><svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-icon--download"></use>
+                        </svg>
+                        <svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-chakanxiangqing"></use>
+                        </svg>
+                        <svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-shanchu2"></use>
+                        </svg>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-doc"></use>
+                        </svg><a href="#">&nbsp安全生产责任制.doc</a></td>
+                    <td>123.8KB</td>
+                    <td>黄育文</td>
+                    <td>2020.08.08</td>
+                    <td><svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-icon--download"></use>
+                        </svg>
+                        <svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-chakanxiangqing"></use>
+                        </svg>
+                        <svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-shanchu2"></use>
+                        </svg>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-xls"></use>
+                        </svg><a href="#">&nbsp工程开工报审表.xls</a></td>
+                    <td>22.3KB</td>
+                    <td>黄育文</td>
+                    <td>2020.08.08</td>
+                    <td><svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-icon--download"></use>
+                        </svg>
+                        <svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-chakanxiangqing"></use>
+                        </svg>
+                        <svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-shanchu2"></use>
+                        </svg>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-xls"></use>
+                        </svg><a href="#">&nbsp施工组织设计方案表.xls</a></td>
+                    <td>110KB</td>
+                    <td>黄育文</td>
+                    <td>2020.08.08</td>
+                    <td><a href="#"><svg class="icon icon_over" aria-hidden="true">
+                                <use xlink:href="#icon-icon--download"></use>
+                            </svg></a>
+                        <a href="#"><svg class="icon icon_over" aria-hidden="true">
+                                <use xlink:href="#icon-chakanxiangqing"></use>
+                            </svg></a>
+                        <a href="#"><svg class="icon icon_over" aria-hidden="true">
+                                <use xlink:href="#icon-shanchu2"></use>
+                            </svg></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-yasuobao"></use>
+                        </svg><a href="#">&nbsp施工测量放线报表_核验资料.rar</a></td>
+                    <td>180.5MB</td>
+                    <td>黄育文</td>
+                    <td>2020.08.08</td>
+                    <td><svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-icon--download"></use>
+                        </svg>
+                        <svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-chakanxiangqing"></use>
+                        </svg>
+                        <svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-shanchu2"></use>
+                        </svg>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-xls"></use>
+                        </svg><a href="#">&nbsp工程质量安全问题报告单.xls</a></td>
+                    <td>12.3KB</td>
+                    <td>黄育文</td>
+                    <td>2020.08.08</td>
+                    <td><svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-icon--download"></use>
+                        </svg>
+                        <svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-chakanxiangqing"></use>
+                        </svg>
+                        <svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-shanchu2"></use>
+                        </svg>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-pdf"></use>
+                        </svg><a href="#">&nbsp工程质量评估报告.pdf</a></td>
+                    <td>28.3KB</td>
+                    <td>黄育文</td>
+                    <td>2020.08.08</td>
+                    <td><svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-icon--download"></use>
+                        </svg>
+                        <svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-chakanxiangqing"></use>
+                        </svg>
+                        <svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-shanchu2"></use>
+                        </svg>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-doc"></use>
+                        </svg><a href="#">&nbsp设计变更及审查手续.doc</a></td>
+                    <td>77KB</td>
+                    <td>黄育文</td>
+                    <td>2020.08.08</td>
+                    <td><svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-icon--download"></use>
+                        </svg>
+                        <svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-chakanxiangqing"></use>
+                        </svg>
+                        <svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-shanchu2"></use>
+                        </svg>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-pdf"></use>
+                        </svg><a href="#">&nbsp工期变更_费用索赔资料.pdf</a></td>
+                    <td>152KB</td>
+                    <td>黄育文</td>
+                    <td>2020.08.08</td>
+                    <td><svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-icon--download"></use>
+                        </svg>
+                        <svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-chakanxiangqing"></use>
+                        </svg>
+                        <svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-shanchu2"></use>
+                        </svg>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td><svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-doc"></use>
+                        </svg><a href="#">&nbsp检查项目报告.doc</a></td>
+                    <td>132KB</td>
+                    <td>黄育文</td>
+                    <td>2020.08.08</td>
+                    <td><svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-icon--download"></use>
+                        </svg>
+                        <svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-chakanxiangqing"></use>
+                        </svg>
+                        <svg class="icon icon_over" aria-hidden="true">
+                            <use xlink:href="#icon-shanchu2"></use>
+                        </svg>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="table_footer">
+            <button class="del">批量删除</button>
+            <button class="del">批量下载</button>
+            <div class="page r">
+                <a class="l">共110页</a>
+                <a href="" class="l">首页</a>
+                <a href="" class="l">1</a>
+                <a href="" class="l">2</a>
+                <a href="" class="l">3</a>
+                <a href="" class="l">下一页</a>
+                <a href="" class="l">尾页</a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright © 2009 -2016 丽水市正达建筑工程有限公司 All rights reserved. 技术支持：红点智能</p>
+    </footer>
 </body>
 
 </html>
