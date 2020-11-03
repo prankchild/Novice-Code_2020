@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function showTime()
+        {
+            var d = new Date();
+            var year = d.getFullYear();
+            var month = d.getMonth();
+            var date = d.getDate();
+
+            var week = d.getDay();
+
+            week = WeekChinese(week);
+
+            var hour = d.getHours();
+            var min = d.getMinutes();
+            var sec = d.getSeconds();
+
+            hour = doublenums(hour);
+            min = doublenums(min);
+            sec = doublenums(sec);
+
+            var str = year + "年" + month + "月" + date + "日 星期" + week + " " + hour + ":" + min + ":" + sec;
+            return str;
+        }
+
+        function WeekChinese(num)
+        {
+            var Wc= ["日","一","二","三","四","五","六"];
+            return Wc[num];
+        }
+
+        function doublenums(num)
+        {
+            if(num<=9)
+            {
+                return "0" + num; 
+            }else{
+                return num;
+            }
+        }
+        document.write(showTime());
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
